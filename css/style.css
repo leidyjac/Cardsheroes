@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.descuentos {
+    background-color: #1CD1B0;
+    padding: 2px 0 2px 20px;
+    font-size: 15px;
+    color: #000000;
+}
+
+.heroes {
+    background-color: #00669F;
+    padding: 10px 0px 10px 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    flex wrap: wrap;
+}
+
+section article {
+    background-color: #F3F3F3;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 50px;
+    width: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+section article div {
+    background-image: url(../img/imagencard1y3.png);
+    width: 300px;
+    height: 195px;
+    background-size: cover;
+}
+
+.harley {
+    background-image: url(../img/imagencard2.png);
+    width: 300px;
+    height: 195px;
+    background-size: cover;
+}
+
+.fa-solid {
+    color: red;
+    margin: 10px;
+}
+
+section article img {
+    position: absolute;
+    border-radius: 50px;
+    top: 280px;
+}
+
+section article h2 {
+    margin: 70px 70px 20px;
+}
+
+section article p {
+    padding: 20px;
+    text-align: justify;
+    margin-top: -9px
+}
+
+button {
+    width: 128.78px;
+    height: 48.52px;
+    left: 117px;
+    top: 754px;
+    background: #00669F;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #F3F3F3;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+footer{
+    height: 51px;
+    left: 0px;
+    top: 972px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFF9F9;
+    padding: 13px;
+}
