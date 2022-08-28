@@ -20,6 +20,7 @@ section {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    position:relative;
 }
 
 section article {
@@ -31,6 +32,7 @@ section article {
     margin: 80px 50px;
     width: 300px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 
 }
 
